@@ -1,0 +1,6 @@
+function hitung_luas_jajar_genjang(panjang, tinggi):
+    luas = panjang * tinggi
+    return luas
+
+luas = hitung_luas_jajar_genjang(5, 3)
+print("Luas jajar genjang adalah:", luas)
