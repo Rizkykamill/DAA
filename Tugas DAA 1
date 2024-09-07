@@ -1,0 +1,8 @@
+function cari_kpk(a, b):
+    kpk = max(a, b)
+    while (kpk % a != 0 or kpk % b != 0):
+        kpk += max(a, b)
+    return kpk
+
+kpk = cari_kpk(3, 4)
+print("KPK dari 3 dan 4 adalah:", kpk)
